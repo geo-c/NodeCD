@@ -1,5 +1,5 @@
 var Private = {
-  server: {port: '61443'}, // Port is overriden by env var 'WWW_PORT'
+  server: {port: '61444'}, // Port is overriden by env var 'WWW_PORT'
   security: {
     authorizedIps: [
       '127.0.0.1',
@@ -30,7 +30,7 @@ var Private = {
   },
   action: {
     exec: {
-      github: '/home/webteam/node-cd_geo_c/smart-cities/github.sh',
+      github: '/home/webteam/node-cd_geo_c/oct-core-docs/github.sh',
       bitbucket: './bitbucket.sh',
       contentful: './contentful.sh'
     }
